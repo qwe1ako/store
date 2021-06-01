@@ -7,6 +7,10 @@ b[1]="广东"
 print(b)
 a=0
 b=[36710.36,35427.10,29863.23,29667.39,27665.36,27650.45,27620.38,25369.20]
-sum=b[0]+b[1]+b[2]+b[3]+b[4]+b[5]+b[6]+b[7]
-pin=sum/7
+count=0
+sum=0
+while count<8:
+    sum=sum+b[count]
+    count=count+1
+    pin=sum/8
 print("GDP总和：",sum,"平均GDP",pin)

@@ -15,7 +15,7 @@ info = {
 }
 # def print_fruits(can):
 #     for i in can:
-#          print(i,"\t")
+#         print(i,"\t")
 # c1=input("输入选择的水果：")
 # c2=info
 # while True:
@@ -38,10 +38,9 @@ for key in info:
              if key1==key2:
                  info[key]["money"]=info[key].get("money")+info[key]["fruits"].get(key1)*fruits.get(key2)
 for key3 in info:
-    key3=info[key3].get("money")+info[key3].get('money')
-
-    i=info[key].get("money")+info[key].get("money")
-    break
+    for key4 in info :
+        i=info[key3].get("money")+info[key4].get("money")
+        break
 print(info)
-print(i)
+print("一共花了￥",i,)
 
